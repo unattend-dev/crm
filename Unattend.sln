@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unattend.BackOffice.UI", "Unattend.BackOffice.UI\Unattend.BackOffice.UI.csproj", "{DE74EE8D-5DEE-4B1D-AD99-CFD36ADD960D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unattend.BackOffice.Api", "Unattend.BackOffice.Api\Unattend.BackOffice.Api.csproj", "{8AA827E7-3DBD-4DA9-AD0A-CF65CB2E45CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9BD6CAFA-0B84-449A-9E76-64E02F9A76BE}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE74EE8D-5DEE-4B1D-AD99-CFD36ADD960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE74EE8D-5DEE-4B1D-AD99-CFD36ADD960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE74EE8D-5DEE-4B1D-AD99-CFD36ADD960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE74EE8D-5DEE-4B1D-AD99-CFD36ADD960D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA827E7-3DBD-4DA9-AD0A-CF65CB2E45CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA827E7-3DBD-4DA9-AD0A-CF65CB2E45CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA827E7-3DBD-4DA9-AD0A-CF65CB2E45CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA827E7-3DBD-4DA9-AD0A-CF65CB2E45CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
